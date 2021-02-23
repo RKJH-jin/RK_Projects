@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{E2958D70-CFC8-4A1D-980D-12180D9B541F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>windowsAPI</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\Home\Desktop\프로그래밍\팀포트폴리오-프리즌아키텍트\깃허브\PrisonArchitect\boost_1_75_0;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\게임개발연습\PrisonArchitect0210_1400\boost_1_75_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\게임개발연습\PrisonArchitect0210_1400\boost_1_75_0\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AccountantAI.h" />
+    <ClInclude Include="AI.h" />
+    <ClInclude Include="AllComponents.h" />
+    <ClInclude Include="AllEnums.h" />
+    <ClInclude Include="AssignCleanerRND.h" />
+    <ClInclude Include="AssignDumpingTarget.h" />
+    <ClInclude Include="AssignRNDGoal.h" />
+    <ClInclude Include="AssignRNDGoalOnce.h" />
+    <ClInclude Include="AssignTarget.h" />
+    <ClInclude Include="AssignTargetOnce.h" />
+    <ClInclude Include="BT.h" />
+    <ClInclude Include="BTCook.h" />
+    <ClInclude Include="BTCreateStuff.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="CameraManager.h" />
+    <ClInclude Include="CleanerAI.h" />
+    <ClInclude Include="commonMacroFunction.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="CookerAI.h" />
+    <ClInclude Include="CreateTray.h" />
+    <ClInclude Include="csv.h" />
+    <ClInclude Include="D2DRenderer.h" />
+    <ClInclude Include="DoctorAI.h" />
+    <ClInclude Include="DrawC.h" />
+    <ClInclude Include="Figure.h" />
+    <ClInclude Include="FloatEllipse.h" />
+    <ClInclude Include="FloatRect.h" />
+    <ClInclude Include="gameNode.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="HelperUI.h" />
+    <ClInclude Include="image.h" />
+    <ClInclude Include="ImageC.h" />
+    <ClInclude Include="imageManager.h" />
+    <ClInclude Include="JumpPointSearch.h" />
+    <ClInclude Include="keyManager.h" />
+    <ClInclude Include="LibraryHeader.h" />
+    <ClInclude Include="Line.h" />
+    <ClInclude Include="MapManager.h" />
+    <ClInclude Include="MapToolScene.h" />
+    <ClInclude Include="Math.h" />
+    <ClInclude Include="MapToolMouse.h" />
+    <ClInclude Include="Mouse.h" />
+    <ClInclude Include="Character.h" />
+    <ClInclude Include="MoveToTarget.h" />
+    <ClInclude Include="MoveToTarget2.h" />
+    <ClInclude Include="People.h" />
+    <ClInclude Include="PickUpTrash.h" />
+    <ClInclude Include="playGround.h" />
+    <ClInclude Include="Prisoner.h" />
+    <ClInclude Include="PrisonerAI.h" />
+    <ClInclude Include="PrisonerEat.h" />
+    <ClInclude Include="PrisonerSleep.h" />
+    <ClInclude Include="PutDownTrash.h" />
+    <ClInclude Include="randomFunction.h" />
+    <ClInclude Include="RectC.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="sceneManager.h" />
+    <ClInclude Include="ScriptC.h" />
+    <ClInclude Include="SelectScene.h" />
+    <ClInclude Include="singletonBase.h" />
+    <ClInclude Include="SoundC.h" />
+    <ClInclude Include="soundManager.h" />
+    <ClInclude Include="Staff.h" />
+    <ClInclude Include="SweepIndex.h" />
+    <ClInclude Include="TeacherAI.h" />
+    <ClInclude Include="TextC.h" />
+    <ClInclude Include="TileArea.h" />
+    <ClInclude Include="TileObject.h" />
+    <ClInclude Include="TileTerrain.h" />
+    <ClInclude Include="TileWall.h" />
+    <ClInclude Include="TitleScene.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StuffObject.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Tile.h" />
+    <ClInclude Include="TileMap.h" />
+    <ClInclude Include="TileAttribute.h" />
+    <ClInclude Include="DataManager.h" />
+    <ClInclude Include="timeManager.h" />
+    <ClInclude Include="timer.h" />
+    <ClInclude Include="ToolObject.h" />
+    <ClInclude Include="TransformC.h" />
+    <ClInclude Include="TrayDirty.h" />
+    <ClInclude Include="Triangle.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="UIManager.h" />
+    <ClInclude Include="UpperUI.h" />
+    <ClInclude Include="Vector2.h" />
+    <ClInclude Include="VolumeUI.h" />
+    <ClInclude Include="WardenAI.h" />
+    <ClInclude Include="WarderAI.h" />
+    <ClInclude Include="windowsAPI.h" />
+    <ClInclude Include="WorkerAI.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AccountantAI.cpp" />
+    <ClCompile Include="AI.cpp" />
+    <ClCompile Include="AssignCleanerRND.cpp" />
+    <ClCompile Include="AssignDumpingTarget.cpp" />
+    <ClCompile Include="AssignRNDGoal.cpp" />
+    <ClCompile Include="AssignRNDGoalOnce.cpp" />
+    <ClCompile Include="AssignTarget.cpp" />
+    <ClCompile Include="AssignTargetOnce.cpp" />
+    <ClCompile Include="BT.cpp" />
+    <ClCompile Include="BTCook.cpp" />
+    <ClCompile Include="BTCreateStuff.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="CameraManager.cpp" />
+    <ClCompile Include="CleanerAI.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="CookerAI.cpp" />
+    <ClCompile Include="CreateTray.cpp" />
+    <ClCompile Include="D2DRenderer+Draw.cpp" />
+    <ClCompile Include="D2DRenderer.cpp" />
+    <ClCompile Include="DoctorAI.cpp" />
+    <ClCompile Include="DrawC.cpp" />
+    <ClCompile Include="Figure.cpp" />
+    <ClCompile Include="FloatEllipse.cpp" />
+    <ClCompile Include="FloatRect.cpp" />
+    <ClCompile Include="gameNode.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="HelperUI.cpp" />
+    <ClCompile Include="image.cpp" />
+    <ClCompile Include="ImageC.cpp" />
+    <ClCompile Include="imageManager.cpp" />
+    <ClCompile Include="JumpPointSearch.cpp" />
+    <ClCompile Include="keyManager.cpp" />
+    <ClCompile Include="Line.cpp" />
+    <ClCompile Include="MapManager.cpp" />
+    <ClCompile Include="MapToolScene+UI.cpp" />
+    <ClCompile Include="MapToolScene.cpp" />
+    <ClCompile Include="Math.cpp" />
+    <ClCompile Include="MapToolMouse.cpp" />
+    <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="Character.cpp" />
+    <ClCompile Include="MoveToTarget.cpp" />
+    <ClCompile Include="MoveToTarget2.cpp" />
+    <ClCompile Include="People.cpp" />
+    <ClCompile Include="PickUpTrash.cpp" />
+    <ClCompile Include="playGround+AddSource.cpp" />
+    <ClCompile Include="playGround.cpp" />
+    <ClCompile Include="Prisoner.cpp" />
+    <ClCompile Include="PrisonerAI.cpp" />
+    <ClCompile Include="PrisonerEat.cpp" />
+    <ClCompile Include="PrisonerSleep.cpp" />
+    <ClCompile Include="PutDownTrash.cpp" />
+    <ClCompile Include="RectC.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="sceneManager.cpp" />
+    <ClCompile Include="ScriptC.cpp" />
+    <ClCompile Include="SelectScene.cpp" />
+    <ClCompile Include="SoundC.cpp" />
+    <ClCompile Include="soundManager.cpp" />
+    <ClCompile Include="Staff.cpp" />
+    <ClCompile Include="SweepIndex.cpp" />
+    <ClCompile Include="TeacherAI.cpp" />
+    <ClCompile Include="TextC.cpp" />
+    <ClCompile Include="TileArea.cpp" />
+    <ClCompile Include="TileObject.cpp" />
+    <ClCompile Include="TileTerrain.cpp" />
+    <ClCompile Include="TileWall.cpp" />
+    <ClCompile Include="TitleScene.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StuffObject.cpp" />
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="TileMap.cpp" />
+    <ClCompile Include="TileAttribute.cpp" />
+    <ClCompile Include="DataManager.cpp" />
+    <ClCompile Include="timeManager.cpp" />
+    <ClCompile Include="timer.cpp" />
+    <ClCompile Include="ToolObject.cpp" />
+    <ClCompile Include="TransformC.cpp" />
+    <ClCompile Include="TrayDirty.cpp" />
+    <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="UIManager.cpp" />
+    <ClCompile Include="UpperUI.cpp" />
+    <ClCompile Include="Vector2.cpp" />
+    <ClCompile Include="VolumeUI.cpp" />
+    <ClCompile Include="WardenAI.cpp" />
+    <ClCompile Include="WarderAI.cpp" />
+    <ClCompile Include="windowsAPI.cpp" />
+    <ClCompile Include="WorkerAI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="windowsAPI.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico" />
+    <Image Include="windowsAPI.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

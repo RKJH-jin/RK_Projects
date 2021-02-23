@@ -1,0 +1,685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2DGameFramework">
+      <UniqueIdentifier>{6f3d1e45-ab86-42a7-9a61-2bd45cd7872c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround">
+      <UniqueIdentifier>{95982806-068a-439b-ba72-8cb93f3609f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\SingletonBase">
+      <UniqueIdentifier>{fab0ad69-58ad-46bb-984d-736d10eee0f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Manager">
+      <UniqueIdentifier>{05d340ae-7cae-42ce-831b-ae2b80a9b8c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\image">
+      <UniqueIdentifier>{161a019f-83fb-4aa5-a2bd-53b11c8888ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Utils">
+      <UniqueIdentifier>{6649f313-dbf4-4ec9-afff-24f47b1a709e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\timer">
+      <UniqueIdentifier>{903124e9-0a6f-4f4f-8a9b-cc25c6f3482b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\D2DRenderer">
+      <UniqueIdentifier>{1f06f2e0-c3bd-4a9c-bad1-d0e16a21ee0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\TileMap">
+      <UniqueIdentifier>{c989de6d-e29e-4bf9-8e6c-10338fadbe89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\csv">
+      <UniqueIdentifier>{1f2180bc-af9d-4723-b78d-0fda4815d7ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\ComponentPattern">
+      <UniqueIdentifier>{c7e829f1-7bb1-4ca7-a740-d954c55a66c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\ComponentPattern\Component">
+      <UniqueIdentifier>{dcf507be-729a-448e-b811-4249da325d1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Scene">
+      <UniqueIdentifier>{91f41925-27c9-423b-9a46-e1a5e48e9e93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Character">
+      <UniqueIdentifier>{bb20878d-9b31-4d63-b9e6-ae316e223d6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Mouse">
+      <UniqueIdentifier>{3aab5768-237e-4d0f-bb4b-6131d11b6679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Manager\UI">
+      <UniqueIdentifier>{ddf8df1b-f607-4628-bcf4-3a0197932cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\ComponentPattern\Component\DrawC">
+      <UniqueIdentifier>{ff16270e-1a4e-4050-9154-e5f1887cb073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\BehaviorTree">
+      <UniqueIdentifier>{ceb36185-548d-4af8-98f6-6f7faedb2fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\JPS">
+      <UniqueIdentifier>{963871c4-2403-43fd-ae74-bd48d9d2fc09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\TileMap\TileObject">
+      <UniqueIdentifier>{98619f82-b7ff-40e7-89e3-c956689c4838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\BehaviorTree\AI">
+      <UniqueIdentifier>{8c366632-7f40-48eb-856e-27300b9652bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\BehaviorTree\AI\PrisonerAI">
+      <UniqueIdentifier>{a2d28fa0-1444-45df-958c-37591d6e57ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\BehaviorTree\AI\WarderAI">
+      <UniqueIdentifier>{13728a6a-d31d-4617-b7a0-f86d844fe79b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\BehaviorTree\AI\WorkerAI">
+      <UniqueIdentifier>{d93da0ef-4f9a-4418-b253-16d74a0a84a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\BehaviorTree\AI\CleanerAI">
+      <UniqueIdentifier>{acc3ca0b-58b0-4bbf-995c-fa6375d8785d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\BehaviorTree\AI\CookerAI">
+      <UniqueIdentifier>{09373561-ee50-4c87-9519-25af90b3a854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\BehaviorTree\Action">
+      <UniqueIdentifier>{d699f7e2-f3d4-424c-93bc-689dddf7caa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Stuff&amp;ToolObject">
+      <UniqueIdentifier>{6865adb7-e459-4aad-bf6f-cc61d653af17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\BehaviorTree\AI\CookerAI\CookerAction">
+      <UniqueIdentifier>{9fb5f2d7-2fca-497b-bec1-1331e82334aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\BehaviorTree\AI\CleanerAI\CleanerAI">
+      <UniqueIdentifier>{8a3f9181-3fa1-4630-8da1-d2aa9a1785a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\BehaviorTree\AI\AccountantAI">
+      <UniqueIdentifier>{323a0589-d1a3-4dbe-90b8-09addd914350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\BehaviorTree\AI\DoctorAI">
+      <UniqueIdentifier>{9dd49f4b-188e-4644-bb9d-52e7b858a521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\BehaviorTree\AI\TeacherAI">
+      <UniqueIdentifier>{f3c054ae-93a2-4c43-ac41-5c0f08d0e1ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\BehaviorTree\AI\WardenAI">
+      <UniqueIdentifier>{3a312d2a-216a-4892-8f5a-96370f497784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\BehaviorTree\AI\PrisonerAI\PrisonerAction">
+      <UniqueIdentifier>{fd1a2745-9c16-4992-af00-f56437ee3f17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="windowsAPI.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>2DGameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="playGround.h">
+      <Filter>playGround</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>2DGameFramework\SingletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>2DGameFramework\image</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DRenderer.h">
+      <Filter>2DGameFramework\D2DRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryHeader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatRect.h">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Figure.h">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatEllipse.h">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>playGround\TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>playGround\TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="AllEnums.h">
+      <Filter>playGround</Filter>
+    </ClInclude>
+    <ClInclude Include="csv.h">
+      <Filter>playGround\csv</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>2DGameFramework\Manager\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>2DGameFramework\Manager\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="AllComponents.h">
+      <Filter>2DGameFramework\ComponentPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>2DGameFramework\ComponentPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>2DGameFramework\ComponentPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundC.h">
+      <Filter>2DGameFramework\ComponentPattern\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformC.h">
+      <Filter>2DGameFramework\ComponentPattern\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>playGround\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MapToolScene.h">
+      <Filter>playGround\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectScene.h">
+      <Filter>playGround\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Prisoner.h">
+      <Filter>playGround\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="StuffObject.h">
+      <Filter>playGround\Stuff&amp;ToolObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>playGround\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Staff.h">
+      <Filter>playGround\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="People.h">
+      <Filter>playGround\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>playGround</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptC.h">
+      <Filter>2DGameFramework\ComponentPattern\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>playGround\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>playGround\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="MapToolMouse.h">
+      <Filter>playGround\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawC.h">
+      <Filter>2DGameFramework\ComponentPattern\Component\DrawC</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageC.h">
+      <Filter>2DGameFramework\ComponentPattern\Component\DrawC</Filter>
+    </ClInclude>
+    <ClInclude Include="RectC.h">
+      <Filter>2DGameFramework\ComponentPattern\Component\DrawC</Filter>
+    </ClInclude>
+    <ClInclude Include="TextC.h">
+      <Filter>2DGameFramework\ComponentPattern\Component\DrawC</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpPointSearch.h">
+      <Filter>2DGameFramework\JPS</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolObject.h">
+      <Filter>playGround\Stuff&amp;ToolObject</Filter>
+    </ClInclude>
+    <ClInclude Include="TileTerrain.h">
+      <Filter>playGround\TileMap\TileObject</Filter>
+    </ClInclude>
+    <ClInclude Include="TileWall.h">
+      <Filter>playGround\TileMap\TileObject</Filter>
+    </ClInclude>
+    <ClInclude Include="TileArea.h">
+      <Filter>playGround\TileMap\TileObject</Filter>
+    </ClInclude>
+    <ClInclude Include="TileAttribute.h">
+      <Filter>playGround\TileMap\TileObject</Filter>
+    </ClInclude>
+    <ClInclude Include="TileObject.h">
+      <Filter>playGround\TileMap\TileObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>2DGameFramework\Manager\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UpperUI.h">
+      <Filter>2DGameFramework\Manager\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CleanerAI.h">
+      <Filter>2DGameFramework\BehaviorTree\AI\CleanerAI</Filter>
+    </ClInclude>
+    <ClInclude Include="CookerAI.h">
+      <Filter>2DGameFramework\BehaviorTree\AI\CookerAI</Filter>
+    </ClInclude>
+    <ClInclude Include="PickUpTrash.h">
+      <Filter>2DGameFramework\BehaviorTree\AI\CleanerAI</Filter>
+    </ClInclude>
+    <ClInclude Include="PutDownTrash.h">
+      <Filter>2DGameFramework\BehaviorTree\AI\CleanerAI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.h">
+      <Filter>2DGameFramework\BehaviorTree\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="PrisonerAI.h">
+      <Filter>2DGameFramework\BehaviorTree\AI\PrisonerAI</Filter>
+    </ClInclude>
+    <ClInclude Include="WarderAI.h">
+      <Filter>2DGameFramework\BehaviorTree\AI\WarderAI</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkerAI.h">
+      <Filter>2DGameFramework\BehaviorTree\AI\WorkerAI</Filter>
+    </ClInclude>
+    <ClInclude Include="BT.h">
+      <Filter>2DGameFramework\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="AssignTargetOnce.h">
+      <Filter>2DGameFramework\BehaviorTree\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="AssignRNDGoal.h">
+      <Filter>2DGameFramework\BehaviorTree\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="AssignRNDGoalOnce.h">
+      <Filter>2DGameFramework\BehaviorTree\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="AssignTarget.h">
+      <Filter>2DGameFramework\BehaviorTree\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveToTarget.h">
+      <Filter>2DGameFramework\BehaviorTree\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>playGround</Filter>
+    </ClInclude>
+    <ClInclude Include="HelperUI.h">
+      <Filter>2DGameFramework\Manager\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="VolumeUI.h">
+      <Filter>2DGameFramework\Manager\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="BTCook.h">
+      <Filter>2DGameFramework\BehaviorTree\AI\CookerAI\CookerAction</Filter>
+    </ClInclude>
+    <ClInclude Include="BTCreateStuff.h">
+      <Filter>2DGameFramework\BehaviorTree\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="AssignCleanerRND.h">
+      <Filter>2DGameFramework\BehaviorTree\AI\CleanerAI\CleanerAI</Filter>
+    </ClInclude>
+    <ClInclude Include="AssignDumpingTarget.h">
+      <Filter>2DGameFramework\BehaviorTree\AI\CleanerAI\CleanerAI</Filter>
+    </ClInclude>
+    <ClInclude Include="SweepIndex.h">
+      <Filter>2DGameFramework\BehaviorTree\AI\CleanerAI</Filter>
+    </ClInclude>
+    <ClInclude Include="WardenAI.h">
+      <Filter>2DGameFramework\BehaviorTree\AI\WardenAI</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountantAI.h">
+      <Filter>2DGameFramework\BehaviorTree\AI\AccountantAI</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveToTarget2.h">
+      <Filter>2DGameFramework\BehaviorTree\AI\AccountantAI</Filter>
+    </ClInclude>
+    <ClInclude Include="DoctorAI.h">
+      <Filter>2DGameFramework\BehaviorTree\AI\DoctorAI</Filter>
+    </ClInclude>
+    <ClInclude Include="TeacherAI.h">
+      <Filter>2DGameFramework\BehaviorTree\AI\TeacherAI</Filter>
+    </ClInclude>
+    <ClInclude Include="PrisonerSleep.h">
+      <Filter>2DGameFramework\BehaviorTree\AI\PrisonerAI\PrisonerAction</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateTray.h">
+      <Filter>2DGameFramework\BehaviorTree\AI\PrisonerAI\PrisonerAction</Filter>
+    </ClInclude>
+    <ClInclude Include="PrisonerEat.h">
+      <Filter>2DGameFramework\BehaviorTree\AI\PrisonerAI\PrisonerAction</Filter>
+    </ClInclude>
+    <ClInclude Include="TrayDirty.h">
+      <Filter>2DGameFramework\BehaviorTree\AI\PrisonerAI\PrisonerAction</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="windowsAPI.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>2DGameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="playGround.cpp">
+      <Filter>playGround</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>2DGameFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DRenderer.cpp">
+      <Filter>2DGameFramework\D2DRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DRenderer+Draw.cpp">
+      <Filter>2DGameFramework\D2DRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatRect.cpp">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Figure.cpp">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatEllipse.cpp">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>playGround\TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>playGround\TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="playGround+AddSource.cpp">
+      <Filter>playGround</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>2DGameFramework\Manager\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>2DGameFramework\Manager\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>2DGameFramework\ComponentPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>2DGameFramework\ComponentPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundC.cpp">
+      <Filter>2DGameFramework\ComponentPattern\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformC.cpp">
+      <Filter>2DGameFramework\ComponentPattern\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>playGround\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MapToolScene.cpp">
+      <Filter>playGround\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectScene.cpp">
+      <Filter>playGround\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Prisoner.cpp">
+      <Filter>playGround\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="StuffObject.cpp">
+      <Filter>playGround\Stuff&amp;ToolObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>playGround\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Staff.cpp">
+      <Filter>playGround\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="People.cpp">
+      <Filter>playGround\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>playGround</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptC.cpp">
+      <Filter>2DGameFramework\ComponentPattern\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>playGround\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>playGround\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="MapToolMouse.cpp">
+      <Filter>playGround\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawC.cpp">
+      <Filter>2DGameFramework\ComponentPattern\Component\DrawC</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageC.cpp">
+      <Filter>2DGameFramework\ComponentPattern\Component\DrawC</Filter>
+    </ClCompile>
+    <ClCompile Include="RectC.cpp">
+      <Filter>2DGameFramework\ComponentPattern\Component\DrawC</Filter>
+    </ClCompile>
+    <ClCompile Include="TextC.cpp">
+      <Filter>2DGameFramework\ComponentPattern\Component\DrawC</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpPointSearch.cpp">
+      <Filter>2DGameFramework\JPS</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolObject.cpp">
+      <Filter>playGround\Stuff&amp;ToolObject</Filter>
+    </ClCompile>
+    <ClCompile Include="TileTerrain.cpp">
+      <Filter>playGround\TileMap\TileObject</Filter>
+    </ClCompile>
+    <ClCompile Include="TileWall.cpp">
+      <Filter>playGround\TileMap\TileObject</Filter>
+    </ClCompile>
+    <ClCompile Include="TileArea.cpp">
+      <Filter>playGround\TileMap\TileObject</Filter>
+    </ClCompile>
+    <ClCompile Include="TileAttribute.cpp">
+      <Filter>playGround\TileMap\TileObject</Filter>
+    </ClCompile>
+    <ClCompile Include="TileObject.cpp">
+      <Filter>playGround\TileMap\TileObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>2DGameFramework\Manager\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MapToolScene+UI.cpp">
+      <Filter>playGround\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="UpperUI.cpp">
+      <Filter>2DGameFramework\Manager\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CleanerAI.cpp">
+      <Filter>2DGameFramework\BehaviorTree\AI\CleanerAI</Filter>
+    </ClCompile>
+    <ClCompile Include="CookerAI.cpp">
+      <Filter>2DGameFramework\BehaviorTree\AI\CookerAI</Filter>
+    </ClCompile>
+    <ClCompile Include="PickUpTrash.cpp">
+      <Filter>2DGameFramework\BehaviorTree\AI\CleanerAI</Filter>
+    </ClCompile>
+    <ClCompile Include="PutDownTrash.cpp">
+      <Filter>2DGameFramework\BehaviorTree\AI\CleanerAI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI.cpp">
+      <Filter>2DGameFramework\BehaviorTree\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="PrisonerAI.cpp">
+      <Filter>2DGameFramework\BehaviorTree\AI\PrisonerAI</Filter>
+    </ClCompile>
+    <ClCompile Include="WarderAI.cpp">
+      <Filter>2DGameFramework\BehaviorTree\AI\WarderAI</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkerAI.cpp">
+      <Filter>2DGameFramework\BehaviorTree\AI\WorkerAI</Filter>
+    </ClCompile>
+    <ClCompile Include="BT.cpp">
+      <Filter>2DGameFramework\BehaviorTree</Filter>
+    </ClCompile>
+    <ClCompile Include="AssignRNDGoal.cpp">
+      <Filter>2DGameFramework\BehaviorTree\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="AssignRNDGoalOnce.cpp">
+      <Filter>2DGameFramework\BehaviorTree\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="AssignTarget.cpp">
+      <Filter>2DGameFramework\BehaviorTree\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="AssignTargetOnce.cpp">
+      <Filter>2DGameFramework\BehaviorTree\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveToTarget.cpp">
+      <Filter>2DGameFramework\BehaviorTree\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>playGround</Filter>
+    </ClCompile>
+    <ClCompile Include="HelperUI.cpp">
+      <Filter>2DGameFramework\Manager\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="VolumeUI.cpp">
+      <Filter>2DGameFramework\Manager\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="BTCook.cpp">
+      <Filter>2DGameFramework\BehaviorTree\AI\CookerAI\CookerAction</Filter>
+    </ClCompile>
+    <ClCompile Include="BTCreateStuff.cpp">
+      <Filter>2DGameFramework\BehaviorTree\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="AssignCleanerRND.cpp">
+      <Filter>2DGameFramework\BehaviorTree\AI\CleanerAI\CleanerAI</Filter>
+    </ClCompile>
+    <ClCompile Include="AssignDumpingTarget.cpp">
+      <Filter>2DGameFramework\BehaviorTree\AI\CleanerAI\CleanerAI</Filter>
+    </ClCompile>
+    <ClCompile Include="SweepIndex.cpp">
+      <Filter>2DGameFramework\BehaviorTree\AI\CleanerAI</Filter>
+    </ClCompile>
+    <ClCompile Include="WardenAI.cpp">
+      <Filter>2DGameFramework\BehaviorTree\AI\WardenAI</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountantAI.cpp">
+      <Filter>2DGameFramework\BehaviorTree\AI\AccountantAI</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveToTarget2.cpp">
+      <Filter>2DGameFramework\BehaviorTree\AI\AccountantAI</Filter>
+    </ClCompile>
+    <ClCompile Include="DoctorAI.cpp">
+      <Filter>2DGameFramework\BehaviorTree\AI\DoctorAI</Filter>
+    </ClCompile>
+    <ClCompile Include="TeacherAI.cpp">
+      <Filter>2DGameFramework\BehaviorTree\AI\TeacherAI</Filter>
+    </ClCompile>
+    <ClCompile Include="PrisonerSleep.cpp">
+      <Filter>2DGameFramework\BehaviorTree\AI\PrisonerAI\PrisonerAction</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateTray.cpp">
+      <Filter>2DGameFramework\BehaviorTree\AI\PrisonerAI\PrisonerAction</Filter>
+    </ClCompile>
+    <ClCompile Include="PrisonerEat.cpp">
+      <Filter>2DGameFramework\BehaviorTree\AI\PrisonerAI\PrisonerAction</Filter>
+    </ClCompile>
+    <ClCompile Include="TrayDirty.cpp">
+      <Filter>2DGameFramework\BehaviorTree\AI\PrisonerAI\PrisonerAction</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="windowsAPI.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="windowsAPI.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

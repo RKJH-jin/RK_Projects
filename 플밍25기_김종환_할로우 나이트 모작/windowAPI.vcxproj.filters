@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2DGameFramework">
+      <UniqueIdentifier>{2ee19535-a953-4eef-ad75-d9e30b26b349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\SingletonBase">
+      <UniqueIdentifier>{71976e2a-20c6-4f27-b50f-5b7ec7fbdd1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround">
+      <UniqueIdentifier>{07ed6059-248b-4fb2-8666-6b17c3978591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Manager">
+      <UniqueIdentifier>{12a1bdad-ebcf-45e6-b39a-e738f4dfc0e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\image">
+      <UniqueIdentifier>{caf0e1cc-ae3a-47e7-865a-91a0755607a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Utils">
+      <UniqueIdentifier>{c962e91d-abcd-4709-8f30-f32302d8f874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\camera">
+      <UniqueIdentifier>{4457267e-069e-4aad-842c-20452926e6bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\UserInterface">
+      <UniqueIdentifier>{759dd57e-e817-48de-a7f5-e54c4ec263da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\UserInterface\progressBar">
+      <UniqueIdentifier>{14f3fb79-b637-47ab-9bae-81e6de0469b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\timer">
+      <UniqueIdentifier>{3fa7c42d-e374-4b0c-b8d9-beb677b4a816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\player">
+      <UniqueIdentifier>{7f1ff2bb-0165-4e0c-9ae7-8c59d0c15493}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\animation">
+      <UniqueIdentifier>{138b00de-e128-48f5-ba98-1555b9968e2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\mapManager">
+      <UniqueIdentifier>{f806b8c4-0e62-480f-9891-55fd13bb9b70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\enemyManager">
+      <UniqueIdentifier>{5b9f11d8-40ba-4a33-bd5b-453c52dd252d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\mapManager\object">
+      <UniqueIdentifier>{26a642df-3b7a-4057-a14c-199128bd117f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\projectile">
+      <UniqueIdentifier>{8136374b-c766-4196-814a-60a63d93f6bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\enemyManager\enemy">
+      <UniqueIdentifier>{87233a93-59b4-4bf0-b99d-f099faddf02d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\enemyManager\enemy\aspid">
+      <UniqueIdentifier>{7e539f5c-74f6-4247-869b-857895548f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\enemyManager\enemy\enemyState">
+      <UniqueIdentifier>{8040ea25-198b-4cb8-a841-c5e766f8d12a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\enemyManager\enemy\xero">
+      <UniqueIdentifier>{8b096508-eb59-412a-aa9e-0e6192eafb23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\UIManager">
+      <UniqueIdentifier>{308c1d94-2696-4b89-9858-c1c1431aeab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Scene">
+      <UniqueIdentifier>{74702168-3bd7-4fd0-a8b5-d5898edd406f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="windowAPI.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>2DGameFramework\SingletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>2DGameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="playGround.h">
+      <Filter>playGround</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>2DGameFramework\image</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cameraManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>2DGameFramework\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>2DGameFramework\UserInterface\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>playGround\player</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>2DGameFramework\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animationManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="mapManager.h">
+      <Filter>playGround\mapManager</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyManager.h">
+      <Filter>playGround\enemyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>playGround\mapManager\object</Filter>
+    </ClInclude>
+    <ClInclude Include="objectEnum.h">
+      <Filter>playGround\mapManager\object</Filter>
+    </ClInclude>
+    <ClInclude Include="platform.h">
+      <Filter>playGround\mapManager\object</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyProjectile.h">
+      <Filter>playGround\projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="playerProjectile.h">
+      <Filter>playGround\projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="struct_tagPlayer.h">
+      <Filter>playGround\player</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>playGround\enemyManager\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="struct_tagEnemy.h">
+      <Filter>playGround\enemyManager\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="playerEnum.h">
+      <Filter>playGround\player</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyEnum.h">
+      <Filter>playGround\enemyManager\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="aspid.h">
+      <Filter>playGround\enemyManager\enemy\aspid</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyState.h">
+      <Filter>playGround\enemyManager\enemy\enemyState</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyAttackState.h">
+      <Filter>playGround\enemyManager\enemy\enemyState</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyIdleState.h">
+      <Filter>playGround\enemyManager\enemy\enemyState</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyDeadState.h">
+      <Filter>playGround\enemyManager\enemy\enemyState</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyMoveState.h">
+      <Filter>playGround\enemyManager\enemy\enemyState</Filter>
+    </ClInclude>
+    <ClInclude Include="projectile.h">
+      <Filter>playGround\projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="xero.h">
+      <Filter>playGround\enemyManager\enemy\xero</Filter>
+    </ClInclude>
+    <ClInclude Include="mathVector.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>playGround\UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="startScene.h">
+      <Filter>playGround\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="bossScene.h">
+      <Filter>playGround\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyScene.h">
+      <Filter>playGround\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>2DGameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="playGround.cpp">
+      <Filter>playGround</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>2DGameFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>2DGameFramework\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>2DGameFramework\UserInterface\progressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="image+frameRender.cpp">
+      <Filter>2DGameFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="image+alphaRender.cpp">
+      <Filter>2DGameFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="image+adjRender.cpp">
+      <Filter>2DGameFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="image+loopRender.cpp">
+      <Filter>2DGameFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>playGround\player</Filter>
+    </ClCompile>
+    <ClCompile Include="player+makePlayerHornet.cpp">
+      <Filter>playGround\player</Filter>
+    </ClCompile>
+    <ClCompile Include="player+playerControl.cpp">
+      <Filter>playGround\player</Filter>
+    </ClCompile>
+    <ClCompile Include="player+playerMove.cpp">
+      <Filter>playGround\player</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>2DGameFramework\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="image+aniRender.cpp">
+      <Filter>2DGameFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="animationManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="mapManager.cpp">
+      <Filter>playGround\mapManager</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyManager.cpp">
+      <Filter>playGround\enemyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>playGround\mapManager\object</Filter>
+    </ClCompile>
+    <ClCompile Include="platform.cpp">
+      <Filter>playGround\mapManager\object</Filter>
+    </ClCompile>
+    <ClCompile Include="player+pixelCheck.cpp">
+      <Filter>playGround\player</Filter>
+    </ClCompile>
+    <ClCompile Include="player+hornetAnimationRender.cpp">
+      <Filter>playGround\player</Filter>
+    </ClCompile>
+    <ClCompile Include="player+hornetAnimationSelect.cpp">
+      <Filter>playGround\player</Filter>
+    </ClCompile>
+    <ClCompile Include="player+animationUpdateReset.cpp">
+      <Filter>playGround\player</Filter>
+    </ClCompile>
+    <ClCompile Include="rectCollision.cpp">
+      <Filter>playGround\player</Filter>
+    </ClCompile>
+    <ClCompile Include="playerProjectile.cpp">
+      <Filter>playGround\projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyProjectile.cpp">
+      <Filter>playGround\projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>playGround\enemyManager\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="aspid.cpp">
+      <Filter>playGround\enemyManager\enemy\aspid</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy+aspidInit.cpp">
+      <Filter>playGround\enemyManager\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="playGround+hornetImageInit.cpp">
+      <Filter>playGround</Filter>
+    </ClCompile>
+    <ClCompile Include="playGround+hornetAnimationInit.cpp">
+      <Filter>playGround</Filter>
+    </ClCompile>
+    <ClCompile Include="playGround+aspidImageInit.cpp">
+      <Filter>playGround</Filter>
+    </ClCompile>
+    <ClCompile Include="playGround+aspidAnimationInit.cpp">
+      <Filter>playGround</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyState.cpp">
+      <Filter>playGround\enemyManager\enemy\enemyState</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyAttackState.cpp">
+      <Filter>playGround\enemyManager\enemy\enemyState</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyDeadState.cpp">
+      <Filter>playGround\enemyManager\enemy\enemyState</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyIdleState.cpp">
+      <Filter>playGround\enemyManager\enemy\enemyState</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyMoveState.cpp">
+      <Filter>playGround\enemyManager\enemy\enemyState</Filter>
+    </ClCompile>
+    <ClCompile Include="projectile.cpp">
+      <Filter>playGround\projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="playGround+xeroImageInit.cpp">
+      <Filter>playGround</Filter>
+    </ClCompile>
+    <ClCompile Include="playGround+xeroAnimationInit.cpp">
+      <Filter>playGround</Filter>
+    </ClCompile>
+    <ClCompile Include="image+rotateRender.cpp">
+      <Filter>2DGameFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="xero.cpp">
+      <Filter>playGround\enemyManager\enemy\xero</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy+xeroInit.cpp">
+      <Filter>playGround\enemyManager\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>playGround\UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="startScene.cpp">
+      <Filter>playGround\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="bossScene.cpp">
+      <Filter>playGround\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyScene.cpp">
+      <Filter>playGround\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="windowAPI.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="windowAPI.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
